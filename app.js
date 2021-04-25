@@ -1,5 +1,5 @@
 //START R-TONE APP
-alert('Please Add Your Home Screen')
+alert('Please Add To Your Home Screen')
 //CREATE OBJECT MOVIES
 var ringtonsData =[{
    rName :"Kabir Singh Theme",
