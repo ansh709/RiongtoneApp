@@ -82,6 +82,20 @@ audio{
 .anim{
 	animation:round 4s infinite;
 }
+.whatstapp {
+    position: fixed;
+    width: 6%!important;
+    right: 10px;
+    bottom: 39px;
+}
+.logo>img{
+	width: 132px;
+    padding: 10px;
+    margin-top: 2px;
+}
+footer{
+	border-top: 1px solid rgb(255 255 255 / 49%);
+}
 @media(max-width:1200px){
 	ul{
     display: inline-flex;
@@ -146,16 +160,15 @@ h4{
     margin: 0 auto;
     left: 31px;
 }
-}
 .whatstapp{
 	position: fixed;
-    width: 16%;
+    width: 16%!important;
     right: 10px;
     bottom: 39px;
+    }   
 }
-footer{
-	border-top: 1px solid rgb(255 255 255 / 49%);
-}
+
+
 @keyframes round {
 	from{
 		    transform: rotate(0deg);
